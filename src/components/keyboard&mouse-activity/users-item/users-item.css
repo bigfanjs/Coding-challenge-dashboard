@@ -1,0 +1,11 @@
+.activity_users_item {
+  display: flex;
+  align-items: center;
+  height: 35px;
+}
+
+.activity_users_item h4 {
+  position: absolute;
+  left: 358px;
+  margin: 0;
+}
