@@ -4,12 +4,14 @@ import Header from '../header';
 import Body from '../body';
 import Footer from '../footer';
 
-export default function () {
+import './app.css';
+
+export default function ({title, body, footer}) {
   return (
-    <div>
-      <Header />
-      <Body />
-      <Footer />
+    <div className="widget">
+      <Header title="title" />
+      <Body component={body} />
+      <Footer component={footer} />
     </div>
   );
 }
