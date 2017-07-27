@@ -9,8 +9,8 @@ import './app.css';
 export default function ({title, body, footer}) {
   return (
     <div className="widget">
-      <Header title="title" />
-      <Body component={body} />
+      <Header title={title} />
+      <Body>{ body }</Body>
       <Footer component={footer} />
     </div>
   );

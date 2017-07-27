@@ -1,5 +1,2 @@
-import React from 'react';
-
-export default function () {
-  return <div>Body Placeholder Component!</div>;
-}
+import Body from './body';
+export default Body;

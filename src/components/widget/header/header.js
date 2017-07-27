@@ -5,8 +5,8 @@ import './header.css';
 export default function ({title}) {
   return (
     <div className="widget_header">
-      <h4>{ title }</h4>
-      <div>Monthly</div>
+      <h5>{ title }</h5>
+      <div style={{marginLeft: '100px'}}>Monthly</div>
       <img src="/images/more.svg" alt="More" />
     </div>
   );
