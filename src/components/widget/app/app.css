@@ -1,4 +1,5 @@
 .widget {
+  position: relative;
   display: block;
   border-radius: 6px;
   box-shadow: 1px 1px 0px 0px #e7e7e7;

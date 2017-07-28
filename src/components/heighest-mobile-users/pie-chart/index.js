@@ -1,7 +1,2 @@
-import React from 'react';
-
-export default function () {
-  return (
-    <h1>Pie Chart</h1>
-  );
-}
+import PieChart from './pie-chart';
+export default PieChart;
