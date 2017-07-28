@@ -1,0 +1,25 @@
+.widget_header {
+  border-bottom: 1px solid #e4e4e4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  padding: 0 10px;
+}
+
+.widget_header .dropdown {
+  margin-left: 70px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.widget_header .dropdown span {
+  color: #90a4af;
+  font-size: 0.8888888em;
+}
+
+.widget_header .dropdown img {
+  margin-left: -6px;
+}

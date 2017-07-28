@@ -1,8 +1,0 @@
-.widget_header {
-  border-bottom: 2px solid rgba(0, 0, 0, 0.06);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 40px;
-  padding: 0 10px;
-}

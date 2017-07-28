@@ -1,7 +1,6 @@
 .widget {
   display: block;
-  border-bottom: 2px solid #efefef;
-  border-right: 2px solid #efefef;
   border-radius: 6px;
   margin: 0 10px;
+  box-shadow: 1px 1px 0px 0px #e7e7e7;
 }
