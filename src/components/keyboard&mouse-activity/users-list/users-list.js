@@ -8,9 +8,9 @@ export default function ({ users }) {
   return (
     <ul className="activity_users_list">
       {
-        users.map(user => (
-          <UsersItem key={user._id} {...user} />
-        ))
+        users
+          .filter((user) => typeof user.monthlyActivity !== 'undefined')
+          .map(user => (<UsersItem key={user._id} {...user} />))
       }
     </ul>
   );
