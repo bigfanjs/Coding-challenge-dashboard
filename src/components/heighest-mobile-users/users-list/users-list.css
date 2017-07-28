@@ -1,0 +1,7 @@
+.mobile_users_list {
+  display: block;
+  width: 250px;
+  list-style-type: none;
+  padding: 0;
+  margin: 15px 0 0 0; 
+}

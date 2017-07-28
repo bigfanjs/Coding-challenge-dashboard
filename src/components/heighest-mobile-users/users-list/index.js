@@ -1,7 +1,2 @@
-import React from 'react';
-
-export default function () {
-  return (
-    <h1>Users List</h1>
-  );
-}
+import UsersList from './users-list';
+export default UsersList;
