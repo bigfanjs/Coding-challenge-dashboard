@@ -15,7 +15,7 @@ const dummyData = [
       name: 'user1-avatar',
       url: '/images/user1-avatar.png'
     },
-    weeklyMobileUsage: '20h 45m'
+    weeklyMobileUsage: null
   },
   {
     _id: 1,
@@ -25,7 +25,7 @@ const dummyData = [
       name: 'user2-avatar',
       url: '/images/user2-avatar.png'
     },
-    weeklyMobileUsage: '20h 45m'
+    weeklyMobileUsage: null
   },
   {
     _id: 2,
@@ -35,7 +35,7 @@ const dummyData = [
       name: 'user3-avatar',
       url: '/images/user3-avatar.png'
     },
-    weeklyMobileUsage: '20h 45m'
+    weeklyMobileUsage: null
   },
   {
     _id: 3,
@@ -45,7 +45,7 @@ const dummyData = [
       name: 'user4-avatar',
       url: '/images/user4-avatar.png'
     },
-    weeklyMobileUsage: '20h 45m'
+    weeklyMobileUsage: null
   },
   {
     _id: 4,
@@ -55,8 +55,37 @@ const dummyData = [
       name: 'user4-avatar',
       url: '/images/user5-avatar.png'
     },
+    weeklyMobileUsage: null
+  },
+  {
+    _id: 5,
+    name: 'Benjamin Tyler',
+    avatar: {
+      name: 'user4-avatar',
+      url: '/images/user5-avatar.png'
+    },
     weeklyMobileUsage: '20h 45m'
-  }
+  },
+  {
+    _id: 6,
+    name: 'Darrell Hart',
+    weeklyMobileUsage: '20h 45m'
+  },
+  {
+    _id: 7,
+    name: 'Lester Douglas',
+    weeklyMobileUsage: '20h 45m'
+  },
+  {
+    _id: 8,
+    name: 'Georgia Harper',
+    weeklyMobileUsage: '20h 45m'
+  },
+  {
+    _id: 9,
+    name: 'Olga Simpson',
+    weeklyMobileUsage: '20h 45m'
+  },
 ];
 
 class App extends Component {
