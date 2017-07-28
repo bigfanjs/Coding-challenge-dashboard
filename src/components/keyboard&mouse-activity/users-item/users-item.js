@@ -5,10 +5,10 @@ import './users-item.css';
 
 const styles = {
   progress: {
-    width: '145px',
+    width: '35%',
     height: '10px',
     position: 'absolute',
-    left: '197px'
+    left: '50%'
   }
 };
 
