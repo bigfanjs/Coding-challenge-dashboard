@@ -4,6 +4,7 @@ import './App.css';
 import Header from './components/header';
 import ActionBar from './components/action-bar';
 import Activity from './components/keyboard&mouse-activity';
+import HeighestMobileUsers from './components/heighest-mobile-users';
 
 const dummyData = [
   {
@@ -65,6 +66,7 @@ class App extends Component {
         <Header />
         <ActionBar />
         <Activity users={dummyData} />
+        <HeighestMobileUsers users={dummyData} />
       </div>
     );
   }
