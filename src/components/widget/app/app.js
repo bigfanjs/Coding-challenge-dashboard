@@ -1,17 +1,15 @@
 import React from 'react';
 
 import Header from '../header';
-import Body from '../body';
-import Footer from '../footer';
 
 import './app.css';
 
-export default function ({title, body, footer}) {
+export default function ({title, footer, children}) {
   return (
     <div className="widget">
       <Header title={title} />
-      <Body>{ body }</Body>
-      <Footer component={footer} />
+      { children }
+      <div className="widget_footer">{ footer }</div>
     </div>
   );
 }
