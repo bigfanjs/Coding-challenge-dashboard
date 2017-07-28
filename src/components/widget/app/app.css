@@ -8,6 +8,16 @@
   margin: 0 20px 20px 20px;
 }
 
+.widget_body {
+  overflow: hidden;
+  border-bottom: 1px solid #e4e4e4;
+  height: 183px;
+}
+
+.widget_footer {
+  height: 36px;
+}
+
 @media (min-width: 500px) {
   .widget {
     width: 392px;

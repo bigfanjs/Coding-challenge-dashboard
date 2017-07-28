@@ -16,10 +16,10 @@ export default function ({colors}) {
       {[...Array(10)].map((item, idx) => (
         <CircularProgress
           key={idx}
-          thickness={6}
+          thickness={10}
           mode="determinate"
           color={idx > 4 ? colors[4-(idx%5)] : '#dcdcdc'}
-          size={((idx%5)+2)*30-(15*(idx%5))}
+          size={((idx%5)+2)*35-(10*(idx%5))}
           value={idx > 4 ? ((idx%5)+1)*17+(40-((idx%5)*10)) : 100}
           style={style} />
       ))}

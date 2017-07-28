@@ -3,6 +3,7 @@ import React, {Component} from 'react';
 import Widget from '../../widget';
 import UsersList from '../users-list';
 import PieChart from '../pie-chart';
+import HoursWorked from '../hours-worked';
 
 class HeighestMobileUsers extends Component {
   constructor(props) {
@@ -19,7 +20,9 @@ class HeighestMobileUsers extends Component {
 
   render() {
     return (
-      <Widget title="Heighest Mobile Users">
+      <Widget
+        title="Heighest Mobile Users"
+        footer={<HoursWorked />}>
         <UsersList
           colors={this.colors}
           users={this.props.users}/>
