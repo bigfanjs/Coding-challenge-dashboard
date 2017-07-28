@@ -1,5 +1,2 @@
-import React from 'react';
-
-export default function () {
-  return <div>Action Bar Placeholder Component!</div>;
-}
+import ActionBar from './action-bar';
+export default ActionBar;
