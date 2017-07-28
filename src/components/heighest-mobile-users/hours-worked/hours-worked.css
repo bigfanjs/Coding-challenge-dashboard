@@ -1,0 +1,26 @@
+.mobile_users_hours_worked {
+  font-size: 0.8888888em;
+  display: flex;
+  justify-content: flex-start;
+  overflow: hidden;
+  align-items: center;
+  height: inherit;
+}
+
+.actual_hours, .hours_worked_more {
+  display: flex;
+  align-items: center;
+  margin-left: 12px;
+}
+
+.actual_hours span, .hours_worked_more span {
+  margin-left: 5px;
+  font-size: 0.8888em;
+  color: #77909d;
+}
+
+.actual_hours div, .hours_worked_more div {
+  width: 10px;
+  height: 10px;
+  background-color: green;
+}
