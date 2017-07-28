@@ -4,12 +4,13 @@
   box-shadow: 1px 1px 0px 0px #e7e7e7;
   overflow: hidden;
   min-width: 360px;
-  margin: 0 10px;
+  margin: 0 20px 20px 20px;
 }
 
 @media (min-width: 500px) {
   .widget {
     width: 392px;
     float: left;
+    margin: 0 0 20px 20px;
   }
 }
