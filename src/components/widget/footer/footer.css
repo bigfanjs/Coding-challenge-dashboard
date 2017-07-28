@@ -1,0 +1,23 @@
+.widget_footer {
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.widget_footer .images {
+  float: left;
+}
+
+.widget_footer .images img {
+  margin-left: -15px
+}
+
+.widget_footer .images img:first-child {
+  margin-left: 0;
+}
+
+.widget_footer span {
+  color: #90a4af;
+  font-size: 0.88888em;
+}

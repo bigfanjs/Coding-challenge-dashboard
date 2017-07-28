@@ -1,5 +1,2 @@
-import React from 'react';
-
-export default function () {
-  return <div>Footer Placeholder Component!</div>;
-}
+import Footer from './footer';
+export default Footer;
