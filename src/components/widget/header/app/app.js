@@ -9,8 +9,10 @@ export default function ({title}) {
   return (
     <div className="widget_header">
       <h5>{ title }</h5>
-      <DropDown />
-      <More />
+      <div className="widget_header_actions">
+        <DropDown />
+        <More />
+      </div>
     </div>
   );
 }
